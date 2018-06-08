@@ -1,0 +1,11 @@
+C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\bin\Debug\netcoreapp2.0\ForzaViz.deps.json
+C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\bin\Debug\netcoreapp2.0\ForzaViz.runtimeconfig.json
+C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\bin\Debug\netcoreapp2.0\ForzaViz.runtimeconfig.dev.json
+C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\bin\Debug\netcoreapp2.0\ForzaViz.dll
+C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\bin\Debug\netcoreapp2.0\ForzaViz.pdb
+C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.csprojResolveAssemblyReference.cache
+C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.csproj.CoreCompileInputs.cache
+C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.AssemblyInfoInputs.cache
+C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.AssemblyInfo.cs
+C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.dll
+C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.pdb
