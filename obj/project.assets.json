@@ -196,6 +196,27 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "PacketDotNet/0.16.0": {
+        "type": "package",
+        "compile": {
+          "lib/PacketDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/PacketDotNet.dll": {}
+        }
+      },
+      "SharpPcap/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "PacketDotNet": "0.16.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SharpPcap.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpPcap.dll": {}
+        }
       }
     }
   },
@@ -656,11 +677,32 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "PacketDotNet/0.16.0": {
+      "sha512": "YCUxECxGHPJsGNqgV8DhgKklbuF+yRYqUu64zbacs1M5r+A3jU+PiTaJfUP8zmYccuMdgf7yDniKRZijQKtq9Q==",
+      "type": "package",
+      "path": "packetdotnet/0.16.0",
+      "files": [
+        "lib/PacketDotNet.dll",
+        "packetdotnet.0.16.0.nupkg.sha512",
+        "packetdotnet.nuspec"
+      ]
+    },
+    "SharpPcap/4.5.0": {
+      "sha512": "z8Wa5XBwmygHSgUgSZEMlVXu1pNIo1qiYhYJfHdYcaEbAl6r46VzXMHsIQKhcbBADe/hT3BRA4FwF8i9qIzu5g==",
+      "type": "package",
+      "path": "sharppcap/4.5.0",
+      "files": [
+        "lib/netstandard2.0/SharpPcap.dll",
+        "sharppcap.4.5.0.nupkg.sha512",
+        "sharppcap.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "SharpPcap >= 4.5.0"
     ]
   },
   "packageFolders": {
@@ -671,11 +713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nick Chiang\\OneDrive\\Projects\\ForzaViz\\ForzaViz.csproj",
+      "projectUniqueName": "D:\\GitHub\\ForzaViz\\ForzaViz.csproj",
       "projectName": "ForzaViz",
-      "projectPath": "C:\\Users\\Nick Chiang\\OneDrive\\Projects\\ForzaViz\\ForzaViz.csproj",
+      "projectPath": "D:\\GitHub\\ForzaViz\\ForzaViz.csproj",
       "packagesPath": "C:\\Users\\Nick Chiang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nick Chiang\\OneDrive\\Projects\\ForzaViz\\obj\\",
+      "outputPath": "D:\\GitHub\\ForzaViz\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -711,6 +753,10 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "SharpPcap": {
+            "target": "Package",
+            "version": "[4.5.0, )"
           }
         },
         "imports": [
@@ -720,5 +766,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PacketDotNet 0.16.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "PacketDotNet",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }

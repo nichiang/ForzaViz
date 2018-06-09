@@ -9,3 +9,14 @@ C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz
 C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.AssemblyInfo.cs
 C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.dll
 C:\Users\Nick Chiang\OneDrive\Projects\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.pdb
+D:\GitHub\ForzaViz\bin\Debug\netcoreapp2.0\ForzaViz.deps.json
+D:\GitHub\ForzaViz\bin\Debug\netcoreapp2.0\ForzaViz.runtimeconfig.json
+D:\GitHub\ForzaViz\bin\Debug\netcoreapp2.0\ForzaViz.runtimeconfig.dev.json
+D:\GitHub\ForzaViz\bin\Debug\netcoreapp2.0\ForzaViz.dll
+D:\GitHub\ForzaViz\bin\Debug\netcoreapp2.0\ForzaViz.pdb
+D:\GitHub\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.csprojResolveAssemblyReference.cache
+D:\GitHub\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.csproj.CoreCompileInputs.cache
+D:\GitHub\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.AssemblyInfoInputs.cache
+D:\GitHub\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.AssemblyInfo.cs
+D:\GitHub\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.dll
+D:\GitHub\ForzaViz\obj\Debug\netcoreapp2.0\ForzaViz.pdb
